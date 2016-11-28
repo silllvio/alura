@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
+<fullyQualifiedTypeName name="br.com.alura.gerenciador.Empresa"/>
+<fullyQualifiedTypeName name="br.com.alura.gerenciador.dao.EmpresaDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.Filter"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebFilter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="br.com.alura.gerenciador.Usuario"/>
+<fullyQualifiedTypeName name="br.com.alura.gerenciador.dao.UsuarioDAO"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.ir.RuntimeNode.Request"/>
+<fullyQualifiedTypeName name="org.apache.catalina.deploy.SessionConfig"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.ServletSecurity"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="br.com.alura.gerenciador.web.Tarefa"/>
+</qualifiedTypeNameHistroy>

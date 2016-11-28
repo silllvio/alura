@@ -1,0 +1,24 @@
+<html>
+<body>
+	Bem vindo ao nosso gerenciador de empresas!
+	<br />
+
+	<form action="novaEmpresa" method="POST">
+		Nome: <input type="text" name="nome"> <input type="submit"
+			value="enviar">
+
+	</form>
+
+<br>
+<br>
+<form action="login" method="POST">
+	LOGIN: <input type = "email" name= "email"/>
+	SENHA: <input type = "password" name = "senha" />
+		   <input type = "submit" value = "Enviar" />
+
+</form>
+
+
+
+</body>
+</html>
