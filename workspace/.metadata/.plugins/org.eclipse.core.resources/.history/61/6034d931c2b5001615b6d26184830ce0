@@ -72,8 +72,5 @@
 	<c:set var="nome" value="João da Silva" />
 <c:out value="${nome}" />
 	
-	teste
-	
-	
 </body>
 </html>
