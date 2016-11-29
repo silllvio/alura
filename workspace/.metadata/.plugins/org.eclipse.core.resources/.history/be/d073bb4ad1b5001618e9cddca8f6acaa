@@ -23,10 +23,7 @@
 		}
 	</script>
 
-
-
 	<h1>Produtos</h1>
-	<h2><fmt:message key="mensagemBenvindo"  /></h2>
 	<div id="mensagem"></div>
 	<table width="100%">
 

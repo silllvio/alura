@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Mon Nov 28 22:20:46 BRST 2016
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\silvio\\alura\\workspace\\produtos\\WebContent\\WEB-INF\\lib\\vraptor-3.1.1.jar=WEB-INF/lib/vraptor-3.1.1.jar
+#Mon Nov 28 23:19:05 BRST 2016
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\silvio\\workspace\\produtos\\WebContent\\WEB-INF\\lib\\vraptor-3.1.1.jar=WEB-INF/lib/vraptor-3.1.1.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\silvio\\alura\\workspace\\produtos\\WebContent\\WEB-INF\\lib\\vraptor-3.1.1.jar=WEB-INF/lib/vraptor-3.1.1.jar
