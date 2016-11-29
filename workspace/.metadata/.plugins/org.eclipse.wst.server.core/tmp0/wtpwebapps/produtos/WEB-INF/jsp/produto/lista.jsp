@@ -1,4 +1,7 @@
+<!--    Documentação da fmt  http://www.tutorialspoint.com/jsp/jstl_format_formatnumber_tag.htm. -->
+
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix ="fmt" %>
 <%@page import="br.com.caelum.produtos.modelo.Produto"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -37,10 +40,23 @@
 		<c:forEach var="p" items="${produtoList}" varStatus="st">
 			<tr id="produto${p.id}">
 				<td>${st.count}</td>
-				<td>${p.nome}</td>
-				<td>${p.preco}</td>
+				<td>${p.nome.toUpperCase()}</td>
+				<td>
+				
+				<fmt:formatNumber value="${p.preco }" type="currency" /> 
+				
+				</td>
 				<td>${p.descricao}</td>
-				<td>${p.dataInicioVenda.time}</td>
+				<td>
+				
+				<!-- 
+				  Teste com a data normal 
+				<fmt:formatDate value="${p.dataInicioVenda.time}" pattern="dd/MM/yyyy" />
+				 -->
+				 <!-- Data por extenso -->
+				<fmt:formatDate value="${p.dataInicioVenda.time}" pattern="EEEE, dd 'de' MMMM, 'de' yyyy. " />
+				
+				</td>
 				<c:if test="${p.usado }">
 					<td>Sim</td>
 				</c:if>
@@ -71,6 +87,9 @@
 	
 	<c:set var="nome" value="João da Silva" />
 <c:out value="${nome}" />
+	
+	teste
+	
 	
 </body>
 </html>
